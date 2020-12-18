@@ -17,36 +17,37 @@
         <div class="col-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                  <h1 class="display-4">New York Times Book Search</h1>
-                  <p class="lead">Search for books!</p>
+                    <h1 class="display-4">New York Times Book Search</h1>
+                    <p class="lead">Search for books!</p>
                 </div>
-              </div>
+            </div>
         </div>
         <div class="row">
             <div class="col-12">
                 <div class="input-group input-group-sm mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Search Term</span>
+                    <span class="input-group-text" id="inputGroup-sizing-sm" id="search-term">Search Term</span>
                     <input type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
-                          
-                          <div class="input-group">
-                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Number of Results</button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">5</a></li>
-                              <li><a class="dropdown-item" href="#">20</a></li>
-                              <li><a class="dropdown-item" href="#">50</a></li>
-                            </ul>
-                        </div>
+
+                    <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Number of Results</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="5" href="#">5</a></li>
+                            <li><a class="dropdown-item" id="20" href="#">20</a></li>
+                            <li><a class="dropdown-item" id="50" href="#">50</a></li>
+                        </ul>
+                    </div>
 
                     <div class="input-group input-group-sm mb-3">
                         <span class="input-group-text" id="inputGroup-sizing-sm">Author (optional)</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input"
+                        <input type="text" class="form-control" id="book-author" aria-label="Sizing example input"
                             aria-describedby="inputGroup-sizing-sm">
 
                         <div class="input-group input-group-sm mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-sm">Publication Date (optional)</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-sm">
+                            <input type="text" class="form-control" id="publication-dt"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                         </div>
                     </div>
                 </div>
@@ -61,6 +62,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="script.js"></script>
 </body>
