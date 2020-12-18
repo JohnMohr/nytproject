@@ -17,13 +17,37 @@
 
         <div class="row">
             <div class="col-12">
-                
-            </div>
-        </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Search Term</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                          
+                          <div class="input-group">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Number of Results</button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">5</a></li>
+                              <li><a class="dropdown-item" href="#">20</a></li>
+                              <li><a class="dropdown-item" href="#">50</a></li>
+                            </ul>
+                        </div>
 
-        <div class="row">
-            <p id="results-here"></p>
-        </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Author (optional)</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+
+                        <div class="input-group input-group-sm mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">Publication Date (optional)</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <p id="results-here"></p>
+            </div>
 
     </main>
 
